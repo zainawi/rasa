@@ -21,6 +21,9 @@ responses:
   utter_evening_greet:
     - text: "Halo, selamat sore."
 
+  utter_offer_help:
+    - text: "Ada yang bisa saya bantu?"
+
   utter_process:
     - text: "Baik, tim sales segera menghubungi untuk informasi ketersediaan dan harganya."
 

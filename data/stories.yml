@@ -5,21 +5,25 @@ stories:
     steps:
       - intent: greet
       - action: utter_greet
+      - action: utter_offer_help
 
   - story: morning greet
     steps:
       - intent: morning_greet
       - action: utter_morning_greet
+      - action: utter_offer_help
 
   - story: afternoon greet
     steps:
       - intent: afternoon_greet
       - action: utter_afternoon_greet
+      - action: utter_offer_help
 
   - story: evening greet
     steps:
       - intent: evening_greet
       - action: utter_evening_greet
+      - action: utter_offer_help
 
   - story: customer need
     steps:
