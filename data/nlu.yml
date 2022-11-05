@@ -1,91 +1,66 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: greet
+    examples: |
+      - hai admin
+      - halo sales
+      - hai bu
+      - halo pak
+      - hai admin
+      - permisi bu
+      - halo, hari yang indah ya
 
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: morning_greet
+    examples: |
+      - pagi admin
+      - selamat pagi bu
+      - selamat pagi admin
+      - halo, pagi pak
+      - halo, selamat pagi bu
+      - permisi, pagi admin
+      - hai admin, selamat pagi
+      - hai, pagi yang cerah ya
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: afternoon_greet
+    examples: |
+      - siang bu
+      - selamat siang sales
+      - selamat siang pak
+      - halo, siang admin
+      - hai, selamat siang
+      - permisi, siang admin
+      - hai admin, selamat siang
+      - hai, siang yang cerah ya
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: evening_greet
+    examples: |
+      - sore bu
+      - permisi sales, selamat sore
+      - selamat sore pak
+      - halo, sore admin
+      - hai admin, selamat sore
+      - hai, selamat sore
+      - permisi, sore bu
+      - hai, sore yang indah ya
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: customer_need
+    examples: |
+      - butuh besi
+      - saya cari besi
+      - apakah besi ini tersedia?
+      - Halo, saya membutuhkan informasi besi.Besi polos ukuran 10
+      - Kebutuhan pembanguanan 24x10 meter persegi membutuhkan Tiang CNP 100. 10 btg
+      - Boleh minta harga wire mesh m4 ,untuk pembelian sekitar 500 lembar.
+      - Hollow hitam 3,8x3,8 harga berapa ya?
+      - Halo, saya butun besi Polos 22 (116 batang)Besi Polos 16 (153 batang)Besi Polos 12 (424 batang)
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: thank
+    examples: |
+      - ok
+      - oke
+      - okay
+      - makasih pak
+      - terima kasih sales
+      - terima kasih banyak admin
+      - terima kasih ya

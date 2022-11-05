@@ -2,32 +2,33 @@ version: "3.1"
 
 intents:
   - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - morning_greet
+  - afternoon_greet
+  - evening_greet
+  - customer_need
+  - thank
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Halo."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_morning_greet:
+    - text: "Halo, selamat pagi."
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_afternoon_greet:
+    - text: "Halo, selamat siang."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_evening_greet:
+    - text: "Halo, selamat sore."
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_process:
+    - text: "Baik, tim sales segera menghubungi untuk informasi ketersediaan dan harganya."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_wait:
+    - text: "Tunggu sebentar ya."
+
+  utter_thank_back:
+    - text: "Terima kasih kembali."
 
 session_config:
   session_expiration_time: 60
